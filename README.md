@@ -27,20 +27,6 @@ The solution is split into four cooperating layers.
 4. **ICU Command UI – `streamlit_app.py`**  
    Streamlit renders a 2×2 grid of bounded patient cards. Alerts and emergency status sit above diagnoses, with scrollable details, vitals trend charts, and RAG expander tables. The hero banner blends hospital styling with observability telemetry.
 
-### Flowchart
-
-```mermaid
-flowchart LR
-    A[Assignment-8.py
-    Synthetic Scenario Generator] -->|CSV + JSONL| B[data/ RAG Vault]
-    B -->|load_dataframe()| C[Streamlit Patient Cards]
-    C -->|build_patient_snapshot()| D[OpenAI gpt-4o-mini]
-    D -->|Agentic Plan JSON
-    + usage stats| C
-    C -->|prime_ai_telemetry()
-    update_ai_telemetry()| E[Billing Observability]
-    C -->|Check Vitals Now
-    reruns Assignment-8.py| A
 ```
 
 ## Key Commands
