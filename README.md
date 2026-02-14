@@ -5,7 +5,7 @@ An AI-assisted ICU monitoring prototype that simulates realistic patient vitals,
 ## Quick Start
 
 ```bash
-pip install -r requirements.txt  # if you maintain one
+pip install streamlit pandas numpy python-dotenv openai
 streamlit run streamlit_app.py
 ```
 
@@ -16,7 +16,7 @@ Use the left sidebar to regenerate synthetic patients ("Check Vitals Now") and t
 The solution is split into four cooperating layers.
 
 1. **Synthetic Patient Simulator – `Assignment-8.py`**  
-   Generates per-minute vitals for four scenarios (sepsis, ventricular tachycardia, respiratory failure, stable) and injects scenario-specific drifts. Each CSV row includes friendly patient metadata plus alert summaries; a companion `patient_rag_documents.jsonl` file supports retrieval workflows.
+   Generates per-minute vitals for four scenarios (sepsis, ventricular tachycardia, respiratory failure, stable) and injects scenario-specific drifts. Each CSV row includes friendly patient metadata, while alert summaries live in the companion `patient_rag_documents.jsonl` file for downstream retrieval workflows.
 
 2. **RAG Vault & Refresh Controls – `data/`**  
    The Streamlit app scans the folder dynamically, normalizes timestamps, and fills optional identity columns. "Check Vitals Now" reruns the generator, clears caches, and primes telemetry so the next OpenAI call is immediately observable.
