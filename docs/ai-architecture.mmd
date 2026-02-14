@@ -1,0 +1,13 @@
+graph LR
+A([Assignment-8.py<br/>Synthetic Scenario Generator]);
+B([data/ RAG Vault]);
+C([Streamlit Patient Cards]);
+D([OpenAI gpt-4o-mini]);
+E([Billing Observability]);
+
+A -->|CSV + JSONL| B;
+B -->|load_dataframe()| C;
+C -->|build_patient_snapshot()| D;
+D -->|Plan JSON + usage stats| C;
+C -->|prime/update telemetry| E;
+C -->|Check Vitals Now| A;

@@ -1,0 +1,61 @@
+patient_id,patient_first_name,patient_last_initial,timestamp,ECG,heart_rate_bpm,temperature_c,bp_systolic_mmHg,bp_diastolic_mmHg,spo2_percent
+P003,Avery,L,2026-02-13 16:53,Normal Sinus Rhythm,75,36.6,119,81,98.0
+P003,Avery,L,2026-02-13 16:54,Normal Sinus Rhythm,77,36.8,121,75,97.7
+P003,Avery,L,2026-02-13 16:55,Normal Sinus Rhythm,77,36.6,115,77,97.4
+P003,Avery,L,2026-02-13 16:56,Normal Sinus Rhythm,73,36.7,121,77,97.2
+P003,Avery,L,2026-02-13 16:57,Normal Sinus Rhythm,77,36.6,112,76,96.9
+P003,Avery,L,2026-02-13 16:58,Normal Sinus Rhythm,78,36.4,118,77,96.6
+P003,Avery,L,2026-02-13 16:59,Normal Sinus Rhythm,78,36.6,117,73,96.3
+P003,Avery,L,2026-02-13 17:00,Normal Sinus Rhythm,79,36.8,120,84,96.0
+P003,Avery,L,2026-02-13 17:01,Normal Sinus Rhythm,75,36.8,122,79,95.8
+P003,Avery,L,2026-02-13 17:02,Normal Sinus Rhythm,80,36.6,119,81,95.5
+P003,Avery,L,2026-02-13 17:03,Normal Sinus Rhythm,79,36.8,118,81,95.2
+P003,Avery,L,2026-02-13 17:04,Normal Sinus Rhythm,83,36.7,117,82,94.9
+P003,Avery,L,2026-02-13 17:05,Normal Sinus Rhythm,84,36.5,115,78,94.6
+P003,Avery,L,2026-02-13 17:06,Normal Sinus Rhythm,79,36.8,113,74,94.4
+P003,Avery,L,2026-02-13 17:07,Normal Sinus Rhythm,82,36.7,122,80,94.1
+P003,Avery,L,2026-02-13 17:08,Normal Sinus Rhythm,83,36.6,119,79,93.8
+P003,Avery,L,2026-02-13 17:09,Normal Sinus Rhythm,87,36.8,117,77,93.5
+P003,Avery,L,2026-02-13 17:10,Normal Sinus Rhythm,84,36.4,114,82,93.2
+P003,Avery,L,2026-02-13 17:11,Normal Sinus Rhythm,87,36.7,116,78,93.0
+P003,Avery,L,2026-02-13 17:12,Normal Sinus Rhythm,84,36.6,114,77,92.7
+P003,Avery,L,2026-02-13 17:13,Normal Sinus Rhythm,94,37.0,113,74,92.4
+P003,Avery,L,2026-02-13 17:14,Normal Sinus Rhythm,86,36.7,112,81,92.1
+P003,Avery,L,2026-02-13 17:15,Normal Sinus Rhythm,88,37.1,119,75,91.8
+P003,Avery,L,2026-02-13 17:16,Normal Sinus Rhythm,93,36.6,124,74,91.6
+P003,Avery,L,2026-02-13 17:17,Normal Sinus Rhythm,87,36.8,122,79,91.3
+P003,Avery,L,2026-02-13 17:18,Normal Sinus Rhythm,89,36.6,112,75,91.0
+P003,Avery,L,2026-02-13 17:19,Normal Sinus Rhythm,90,36.7,123,79,90.7
+P003,Avery,L,2026-02-13 17:20,Normal Sinus Rhythm,95,36.8,119,78,90.4
+P003,Avery,L,2026-02-13 17:21,Normal Sinus Rhythm,98,36.3,126,80,90.2
+P003,Avery,L,2026-02-13 17:22,Sinus Tachycardia with ST Depression,96,36.5,113,81,89.9
+P003,Avery,L,2026-02-13 17:23,Sinus Tachycardia with ST Depression,87,36.7,111,82,89.6
+P003,Avery,L,2026-02-13 17:24,Sinus Tachycardia with ST Depression,101,36.7,115,80,89.3
+P003,Avery,L,2026-02-13 17:25,Sinus Tachycardia with ST Depression,96,37.1,109,80,89.0
+P003,Avery,L,2026-02-13 17:26,Sinus Tachycardia with ST Depression,98,36.6,117,78,88.8
+P003,Avery,L,2026-02-13 17:27,Sinus Tachycardia with ST Depression,95,36.8,108,81,88.5
+P003,Avery,L,2026-02-13 17:28,Sinus Tachycardia with ST Depression,97,36.9,117,79,88.2
+P003,Avery,L,2026-02-13 17:29,Sinus Tachycardia with ST Depression,98,36.8,111,80,87.9
+P003,Avery,L,2026-02-13 17:30,Sinus Tachycardia with ST Depression,93,36.7,111,76,87.6
+P003,Avery,L,2026-02-13 17:31,Sinus Tachycardia with ST Depression,96,36.6,109,84,87.4
+P003,Avery,L,2026-02-13 17:32,Sinus Tachycardia with ST Depression,99,36.9,113,74,87.1
+P003,Avery,L,2026-02-13 17:33,Sinus Tachycardia with ST Depression,94,36.8,112,76,86.8
+P003,Avery,L,2026-02-13 17:34,Sinus Tachycardia with ST Depression,101,36.6,106,78,86.5
+P003,Avery,L,2026-02-13 17:35,Sinus Tachycardia with ST Depression,100,36.6,106,82,86.2
+P003,Avery,L,2026-02-13 17:36,Sinus Tachycardia with ST Depression,99,36.8,110,81,86.0
+P003,Avery,L,2026-02-13 17:37,Sinus Tachycardia with ST Depression,100,36.9,104,80,85.7
+P003,Avery,L,2026-02-13 17:38,Sinus Tachycardia with ST Depression,106,36.7,111,77,85.4
+P003,Avery,L,2026-02-13 17:39,Sinus Tachycardia with ST Depression,105,36.6,108,82,85.1
+P003,Avery,L,2026-02-13 17:40,Sinus Tachycardia with ST Depression,111,36.7,103,72,84.8
+P003,Avery,L,2026-02-13 17:41,Sinus Tachycardia with ST Depression,103,36.5,115,77,84.6
+P003,Avery,L,2026-02-13 17:42,Sinus Tachycardia with ST Depression,108,36.7,109,78,84.3
+P003,Avery,L,2026-02-13 17:43,Sinus Tachycardia with ST Depression,103,36.8,109,77,84.0
+P003,Avery,L,2026-02-13 17:44,Sinus Tachycardia with ST Depression,104,36.7,113,79,83.7
+P003,Avery,L,2026-02-13 17:45,Sinus Tachycardia with ST Depression,101,36.6,108,74,83.4
+P003,Avery,L,2026-02-13 17:46,Sinus Tachycardia with ST Depression,109,36.8,111,73,83.2
+P003,Avery,L,2026-02-13 17:47,Sinus Tachycardia with ST Depression,108,36.7,103,76,82.9
+P003,Avery,L,2026-02-13 17:48,Sinus Tachycardia with ST Depression,111,36.7,111,79,82.6
+P003,Avery,L,2026-02-13 17:49,Sinus Tachycardia with ST Depression,109,36.7,107,82,82.3
+P003,Avery,L,2026-02-13 17:50,Sinus Tachycardia with ST Depression,111,36.7,112,76,82.0
+P003,Avery,L,2026-02-13 17:51,Sinus Tachycardia with ST Depression,102,36.7,104,81,81.8
+P003,Avery,L,2026-02-13 17:52,Sinus Tachycardia with ST Depression,108,36.7,105,77,81.5
